@@ -28,7 +28,6 @@ export default function Home({ books, error }) {
             <Link href={`/books/${book.id}`} passHref>
               <h2 style={{ cursor: 'pointer', color: 'blue' }}>{book.title}</h2>
             </Link>
-            <p>By {book.author}</p>
             <p>{book.description}</p>
           </div>
         ))}

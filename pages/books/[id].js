@@ -29,10 +29,9 @@ export default function BookDetail({ book }) {
   return (
     <div>
       <h1>{book.title}</h1>
-      <p>Author: {book.author}</p>
-      <p>Published: {book.publish_date}</p>
-      <p>Pages: {book.page_count}</p>
-      <p>{book.description}</p>
+      <p>Description: {book.description}</p>
+      <p>Pages: {book.pageCount}</p>
+      <p>Published: {book.publishDate}</p>
       <Link href="/" passHref>
         <p style={{ cursor: 'pointer', color: 'blue' }}>← Back to Home</p>
       </Link>
