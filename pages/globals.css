@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.book-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
